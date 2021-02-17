@@ -17,7 +17,7 @@ name: title
 class:  center hide-count
 background-image: url("img/liulogo.png")
 background-position: 95% 93%
-background-size: 20%
+background-size: 25%
 
 
 &lt;!-- Title Slide --&gt;
@@ -92,7 +92,6 @@ class: slide-font
 # Research Questions and Goals
 .left-column[
 &lt;br/&gt;
-&lt;br/&gt;
 ### 2 Research&lt;br/&gt; Questions
 ]
 .right-column[
@@ -106,58 +105,83 @@ class: slide-font
 ---
 class: slide-font_2
 # Research Questions and Goals
-.left-column[
-&lt;br/&gt;
-### 2 Research&lt;br/&gt; Questions
-&lt;br/&gt;
+
+.pull-left[
+### 2 Research Questions
+
+1.  How to model the selection of routes to subsidise? 
+
+2.  How to model an auction that replicates the selection of airlines to serve subsidised routes?
+
+]
+
+.pull-right[
 ### 2 Goals
-]
-.right-column[
-.gray[
-RQ1.  How to model the selection of routes to subsidise?  
 
-RQ2.  How to model an auction that replicates the selection of airlines to serve subsidised routes?
-]
+1. To develop a model that can can objectively select an optimal set of subsidised routes.
 
-G1. To develop a model that can compare existing and non-existing subsidised schemes, and can objectively select an optimal set of subsidised routes.
-
-G2. To develop a model that can help the transportation authorities choose appropriate tendering requirements by studying how changes in these requirements may affect the subsidies, the airlines, and the passengers.
+2. To develop a model that can help the transportation authorities choose appropriate tendering requirements by studying how changes in these requirements may affect the subsidies, the airlines, and the passengers.
 ]
 
 ???
 These lead to two goals, one dealing with the development of models
 and the other
 ---
-class: hover
-# Models for Procuring Subsidised routes
+class: hover slide-font_2
+background-image: url("img/all_criteria.png")
+background-size: 30%
+background-position: 18% 70%
+# Selecting subsidised routes
 
-.left-column[
-### .marron-bold[Selecting subsidised routes]
+.pull-left[
+
 ]
-.right-column[
- * Add picture
+.pull-right[
+### Key aspects
+- Accessibility criteria and travel time targets
+
+- Maximise accessibility (number of people)
+
+- Other modes of transportation
+
+- Minimise subsidies
 ]
 ---
-# Models for Procuring Subsidised routes
+class: slide-font_2
+# Auction for Subsidised routes
+.pull-left[
+### Government
+- Minimise subsidies
 
-.left-column[
-### Selecting subsidised routes
-### .marron-bold[Auction for Subsidised routes] 
+- Appropriate level of service
 ]
-.right-column[
- .pull-left[
-1. Bid Preparation
-]
-
 .pull-right[
-2. Winner determination
-]
-]
+### Airlines
+- Typycally maximise profits
 
+- Need to minimise subsidies in order to win
+
+- Limited capacity
+
+- Demand-Supply interaction
+]
 
 ---
 # Contributions
 
+1. Develop a .content-box-gray[budget-constrained optimisation model] that selects an optimal set of subsidised routes from all possible routes based on givenaccessibility criteria.
+
+2.  Propose a method to .content-box-gray[estimate the subsidies of new routes]. This makes it possible to assesses all the possible subsidised routes.
+
+3.  Develop .content-box-gray[an integrated auction framework] for the tendering process of subsidised routes.
+
+4.  Develop a .content-box-gray[bid-preparation model as an optimisation model] that is specific  to  subsidised  routes,  to  represent  the  airlines’  behaviour  in  the auction framework. The bidding airline is interested in minimising the subsidies subject to a target profit threshold.
+
+5.  Propose a method to .content-box-gray[estimate the demand, which is appropriate for the origin–destination markets in subsidised schemes].
+
+6.  .content-box-gray[Estimate the route operation cost for the small aircraft types] that typically operate subsidised routes.  A model based on the small aircraft types—used to operate the subsidised routes—gives a more accurate cost estimate than a model based on bigger aircraft types,  which are more appropriate for commercially viable routes.
+
+7.  .content-box-gray[Demonstrate the application of the models] using the Swedish subsidy scheme as a case study and suggest policy guidelines.
 ---
 class: center, middle, mytitle
 background-image: url("img/plane.png")
