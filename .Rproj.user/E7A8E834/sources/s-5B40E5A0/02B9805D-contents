@@ -63,7 +63,7 @@ class: slide-font
 
 * Profit oriented airlines ignore routes that serve remote regions
 
-* Impaired accessibility to certain destination
+* Impaired accessibility to certain destinations
 
 * Subsidy schemes by transportation authorities
     > - Procure air services
@@ -192,7 +192,7 @@ class: slide-font_2
 ]
 
 ---
-# Contributions
+# Contributions (2 papers)
 
 1. Develop a .content-box-gray[budget-constrained optimisation model] that selects an optimal set of subsidised routes from all possible routes based on givenaccessibility criteria.
 
@@ -370,7 +370,7 @@ class: slide-font_2, hover
 ## PAPER II: Conclusions
 
 ![:scale 100%](img/results_p2.png)
-- No restriction on air fare and number of daily flights is good for the government
+- No restriction on airfare and number of daily flights is good for the government
 
 - Requirement on the minimum airfare gives a good balance between government subsidies and consumers surplus
 ---
