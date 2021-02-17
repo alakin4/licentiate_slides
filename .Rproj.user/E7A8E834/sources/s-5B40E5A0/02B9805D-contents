@@ -110,7 +110,7 @@ class: slide-font
 # Over all aim
 <br/>
 <br/>
-> To design decision support models that can be used by transportation authorities to .content-box-gray[select the routes to subsidise] and to .content-box-gray[design an auction with appropriate requitrements for these routes]
+> To design decision support models that can be used by transportation authorities to .content-box-gray[select the routes to subsidise] and to .content-box-gray[design an auction with appropriate requirements for these routes]
 
 ???
 So the overall aim of the thesis is to ....
@@ -144,7 +144,7 @@ class: slide-font_2
 .pull-right[
 ### 2 Goals
 
-1. To develop a model that can can objectively select an optimal set of subsidised routes.
+1. To develop a model that can objectively select an optimal set of subsidised routes.
 
 2. To develop a model that can help the transportation authorities choose appropriate tendering requirements by studying how changes in these requirements may affect the subsidies, the airlines, and the passengers.
 ]
@@ -185,7 +185,7 @@ class: slide-font_2
 ]
 .pull-right[
 ### Airlines
-- Typycally maximise profits
+- Typically maximise profits
 
 - Need to minimise subsidies in order to win
 
@@ -270,7 +270,7 @@ class: slide-font_2
 ]
 
 .pull-right[
-- $y_p = 1$ if center $p$ is corvered; 0 otherwise
+- $y_p = 1$ if center $p$ is covered; 0 otherwise
 
 - $x_f = 1$ if route $f$ selected; 0 otherwise
 
@@ -352,10 +352,11 @@ background-position: 11% 70%
 .pull-right[
 - Minimise total subsidy $s$ per bundle 
 
+- Balance demand and capacity
+
 - Capture demand elasticity using a utility function: $d_a=D\frac{e^{U_{a}}}{1+e^{U_{a}}}$, $U_{a}(time, airfare)$
 - Estimate route operating cost: $C(seat, distance)$
 
-- Balance demand and capacity
 
 - Profit threshold $\psi$
 ]
@@ -373,7 +374,7 @@ class: slide-font_2
 
 - $x_b = 1$ if bundle $b$ is selected; 0 otherwise
 
-- Each airline is wins atmost one bundle
+- Each airline wins at most one bundle
 ]
 ---
 class: slide-font_2, hover
