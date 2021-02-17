@@ -193,15 +193,27 @@ class: slide-font_2
 
 1. Develop a .content-box-gray[budget-constrained optimisation model] that selects an optimal set of subsidised routes from all possible routes based on givenaccessibility criteria.
 
+--
+
 2.  Propose a method to .content-box-gray2[estimate the subsidies of new routes]. This makes it possible to assesses all the possible subsidised routes.
+
+--
 
 3.  Develop .content-box-gray[an integrated auction framework] for the tendering process of subsidised routes.
 
+--
+
 4.  Develop a .content-box-gray2[bid-preparation model as an optimisation model] that is specific  to  subsidised  routes,  to  represent  the  airlines’  behaviour  in  the auction framework. The bidding airline is interested in minimising the subsidies subject to a target profit threshold.
+
+--
 
 5.  Propose a method to .content-box-gray[estimate the demand, which is appropriate for the origin–destination markets in subsidised schemes].
 
+--
+
 6.  .content-box-gray2[Estimate the route operation cost for the small aircraft types] that typically operate subsidised routes.  A model based on the small aircraft types—used to operate the subsidised routes—gives a more accurate cost estimate than a model based on bigger aircraft types,  which are more appropriate for commercially viable routes.
+
+--
 
 7.  .content-box-gray[Demonstrate the application of the models] using the Swedish subsidy scheme as a case study and suggest policy guidelines.
 ---
@@ -210,6 +222,8 @@ background-image: url("img/plane.png")
 background-position: 50% 85%
 background-size: 60%
 # Summary of the  two papers
+
+<i class="fa fa-spinner fa-spin" style="font-size:60px;color:white;"></i>
 ---
 class: slide-font_2
 ## PAPER I:
@@ -358,8 +372,8 @@ class: slide-font_2, hover
 - Requirement on the minimum airfare gives a good balance between government subsidies and consumers surplus
 ---
 class: slide-font_2
-## Discussion and future research
-
+## Discussion and future research 
+ 
 - Decision support models can be used to:
     - reduce government spending while improving accessibility
     - assess how requirements affect the results of the tendering process
@@ -382,7 +396,7 @@ class: center, mytitle
 background-image: url("img/plane.png")
 background-position: 5% 85%
 background-size: 60%
-# Acknowledgements
+# Acknowledgements 👏 
 
 .pull-left[
 Tobias Andersson Grandberg (Main supervisor)
