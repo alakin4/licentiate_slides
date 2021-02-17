@@ -5,7 +5,7 @@ author:
   - .b[Alan Kinene]
   - .small[.blue-medium[Department of Science and Technology, ITN]]
   #- - <a href="#" class="fa fa-twitter"></a>.gray-2[&commat;alankinene]"
-date: "`r Sys.Date()`"
+date: "2021-12-17"
   
 output:
   xaringan::moon_reader:
@@ -378,8 +378,8 @@ class: slide-font_2
 ## Discussion and future research 
  
 - Decision support models can be used to:
-    - reduce government spending while improving accessibility
-    - assess how requirements affect the results of the tendering process
+    > - reduce government spending while improving accessibility
+    > - assess how requirements affect the results of the tendering process
     
 
 - Solve the two task of the procurement process simultaneously
