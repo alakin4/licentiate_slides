@@ -251,11 +251,11 @@ class: slide-font_2
 
 - `\(x_f = 1\)` if route `\(f\)` selected; 0 otherwise
 
-- Maximise number of people with respect to an accessibility target `\(t\)`
+- Maximise number of people with respect to an accessibility target `\(t\)` `\((1.1)\)`
 
-- A budget `\(B\)` should not be exceeded
+- A budget `\(B\)` should not be exceeded `\((1.2)\)`
 
-- Ground transportation, commercial route, or subsidised route
+- Ground transportation, commercial route, or subsidised route `\((1.3)\)`
 ]
 
 ???
@@ -316,7 +316,7 @@ class: slide-font_2
 - The the airlines are called to bid and they prepare their bids taking into consideration the demand and the route operation cost. Specify the subsidy needed for their services
 - The last step is for the transportation authority to select the winning airlines for each region.
 ---
-class: slide-font_2
+class: slide-font_3
 background-image: url("img/bidIP.png")
 background-size: 48%
 background-position: 11% 70%
@@ -327,16 +327,18 @@ background-position: 11% 70%
 ]
 
 .pull-right[
-- Minimise total subsidy `\(s\)` per bundle 
+- Minimise total subsidy `\(s\)` per bundle `\((2.1)\)`
 
-- Balance demand and capacity
+- Balance demand and capacity `\((2.3)\)`
 
-- Capture demand elasticity using a utility function: `\(d_a=D\frac{e^{U_{a}}}{1+e^{U_{a}}}\)`, `\(U_{a}(time, airfare)\)`
+- Capture demand elasticity using a utility function:  `\(U_{a}(time, airfare)\)`
 - Estimate route operating cost: `\(C(seat, distance)\)`
 
-
-- Profit threshold `\(\psi\)`
+- Profit threshold `\(\psi\)` `\((2.10)\)`
 ]
+
+???
+`\(d_a=D\frac{e^{U_{a}}}{1+e^{U_{a}}}\)`,
 ---
 class: slide-font_2
 ## An integrated auction framework
@@ -347,11 +349,11 @@ class: slide-font_2
 ]
 
 .pull-right[
-- Minimise total subsidy for serving all regions
-
 - `\(x_b = 1\)` if bundle `\(b\)` is selected; 0 otherwise
 
-- Each airline wins at most one bundle
+- Minimise total subsidy for serving all regions `\((3.1)\)`
+
+- Each airline wins at most one bundle `\((3.3)\)`
 ]
 ---
 class: slide-font_2, hover

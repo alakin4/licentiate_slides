@@ -28,6 +28,10 @@ blockquote {
   font-size: 2.05em;
 }
 
+.slide-font_3{
+  font-size: 2.0em;
+}
+
 .marron-background h{
   color: #600f16;
   font-weight: bold;
