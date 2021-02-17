@@ -5,7 +5,7 @@ author:
   - .b[Alan Kinene]
   - .small[.blue-medium[Department of Science and Technology, ITN]]
   #- - <a href="#" class="fa fa-twitter"></a>.gray-2[&commat;alankinene]"
-date: "2021-12-17"
+date: "2021-12-18"
   
 output:
   xaringan::moon_reader:

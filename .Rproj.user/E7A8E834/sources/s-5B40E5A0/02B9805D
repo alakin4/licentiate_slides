@@ -3,22 +3,22 @@
     "path": "~/Documents/Projects/licentiate_slides/lic_presentation.Rmd",
     "project_path": "lic_presentation.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "865702361",
     "contents": "",
     "dirty": false,
     "created": 1613560314597.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
-        "cursorPosition": "24,0",
-        "scrollLine": "24"
+        "cursorPosition": "7,17",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1613571491,
+    "lastKnownWriteTime": 1613571551,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1613571491402,
+    "last_content_update": 1613571551125,
     "read_only": false,
     "read_only_alternatives": []
 }
