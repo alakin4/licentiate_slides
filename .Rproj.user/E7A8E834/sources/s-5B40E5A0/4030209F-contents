@@ -13,6 +13,7 @@ font-size: 80%;
 blockquote {
     border-left: solid 10px #e2e2e2;
     padding-left: 0.2em;
+    text-align: justify;
 }
 
 .marron-bold{

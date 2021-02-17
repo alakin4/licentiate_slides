@@ -3,22 +3,22 @@
     "path": "~/Documents/Projects/licentiate_slides/extra.css",
     "project_path": "extra.css",
     "type": "css",
-    "hash": "941696496",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1613560317843.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
-        "cursorPosition": "1,86",
-        "scrollLine": "0"
+        "cursorPosition": "9,15",
+        "scrollLine": "4"
     },
     "folds": "",
-    "lastKnownWriteTime": 1613569636,
+    "lastKnownWriteTime": 1613570421,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1613569636740,
+    "last_content_update": 1613570421800,
     "read_only": false,
     "read_only_alternatives": []
 }
