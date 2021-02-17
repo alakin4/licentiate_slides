@@ -5,7 +5,7 @@ author:
   - .b[Alan Kinene]
   - .small[.blue-medium[Department of Science and Technology, ITN]]
   #- - <a href="#" class="fa fa-twitter"></a>.gray-2[&commat;alankinene]"
-date: "2021-12-18"
+date: "2021-02-18"
   
 output:
   xaringan::moon_reader:
@@ -387,6 +387,7 @@ class: slide-font_2
 - Enhanced flight-scheduling component in the bid preparation model
 
 - Re-designing subsidised routes based on electric
+
 
 ???
 - of course this analysis is done using less criteria than what Trafikverket uses but future research can easily extend the model to include all criteria
