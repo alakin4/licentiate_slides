@@ -105,7 +105,7 @@ class: slide-font
 
 # Over all aim
 
-> To design decision support models that can be used by transportation authorities to .content-box-gray[select the routes to subsidise] and to .content-box-gray[design auction with appropriate requitrements for these routes]
+> To design decision support models that can be used by transportation authorities to .content-box-gray[select the routes to subsidise] and to .content-box-gray[design an auction with appropriate requitrements for these routes]
 
 ???
 So the overall aim of the thesis is to ....
@@ -193,15 +193,15 @@ class: slide-font_2
 
 1. Develop a .content-box-gray[budget-constrained optimisation model] that selects an optimal set of subsidised routes from all possible routes based on givenaccessibility criteria.
 
-2.  Propose a method to .content-box-gray[estimate the subsidies of new routes]. This makes it possible to assesses all the possible subsidised routes.
+2.  Propose a method to .content-box-gray2[estimate the subsidies of new routes]. This makes it possible to assesses all the possible subsidised routes.
 
 3.  Develop .content-box-gray[an integrated auction framework] for the tendering process of subsidised routes.
 
-4.  Develop a .content-box-gray[bid-preparation model as an optimisation model] that is specific  to  subsidised  routes,  to  represent  the  airlines’  behaviour  in  the auction framework. The bidding airline is interested in minimising the subsidies subject to a target profit threshold.
+4.  Develop a .content-box-gray2[bid-preparation model as an optimisation model] that is specific  to  subsidised  routes,  to  represent  the  airlines’  behaviour  in  the auction framework. The bidding airline is interested in minimising the subsidies subject to a target profit threshold.
 
 5.  Propose a method to .content-box-gray[estimate the demand, which is appropriate for the origin–destination markets in subsidised schemes].
 
-6.  .content-box-gray[Estimate the route operation cost for the small aircraft types] that typically operate subsidised routes.  A model based on the small aircraft types—used to operate the subsidised routes—gives a more accurate cost estimate than a model based on bigger aircraft types,  which are more appropriate for commercially viable routes.
+6.  .content-box-gray2[Estimate the route operation cost for the small aircraft types] that typically operate subsidised routes.  A model based on the small aircraft types—used to operate the subsidised routes—gives a more accurate cost estimate than a model based on bigger aircraft types,  which are more appropriate for commercially viable routes.
 
 7.  .content-box-gray[Demonstrate the application of the models] using the Swedish subsidy scheme as a case study and suggest policy guidelines.
 ---
@@ -275,7 +275,7 @@ background-position: 10% 70%
 <br/>
 1. Better accessibility than current network but at a reduced subsidisation cost
 
-2. Closure of an airport (e.g., Stockholm Bromma Airport) with commercial traffic may require a subsidised route to as replacement
+2. Closure of an airport (e.g., BMA) with commercial traffic may require a subsidised route to as replacement
 ]
 
 ???
@@ -357,9 +357,26 @@ class: slide-font_2, hover
 
 - Requirement on the minimum airfare gives a good balance between government subsidies and consumers surplus
 ---
+class: slide-font_2
 ## Discussion and future research
 
+- Decision support models can be used to:
+    - reduce government spending while improving accessibility
+    - assess how requirements affect the results of the tendering process
+    
 
+- Solve the two task of the procurement process simultaneously
+
+- Enhanced flight-scheduling component in the bid preparation model
+
+- Re-designing subsidised routes based on electric
+
+???
+- of course this analysis is done using less criteria than what Trafikverket uses but future research can easily extend the model to include all criteria
+
+- The auction framework assumes the regions in the auction definition determined in the investigation/selection stage of the procurement process.
+
+- flight scheduling would better capture schedule delay
 ---
 class: center, mytitle
 background-image: url("img/plane.png")
