@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:200,300,400,700,400italic');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:300,400,700,400italic');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+body { font-family:  'Roboto', 'IBM Plex Sans','Songti SC','Ubuntu Mono','Droid Serif', 'Palatino Linotype', 'Book Antiqua', 'Palatino', 'Microsoft YaHei',  serif; 
+font-size: 80%;
+}
+
+blockquote {
+    border-left: solid 10px #e2e2e2;
+    padding-left: 0.2em;
+}
+
+.marron-bold{
+  color: #600f16;
+  font-weight: bold;
+}
+
+.slide-font{
+  font-size: 2.4em;
+}
+
+.slide-font_2{
+  font-size: 2.05em;
+}
+
+.marron-background h{
+  color: #600f16;
+  font-weight: bold;
+}
+
+.hover {
+  cursor:e-resize;
+}
+
+
+
+.mytitle{
+  background-color: #000000FF;
+  color: white;
+}
+
+.title-slide {
+    background-image: url(../img/liulogo.png);
+    background-position: 95% 93%;
+    background-size: 20%;
+}
+
+.title-slide h2 {
+    font-size: 2em;
+    margin-bottom: 0em;
+}
+
+.talk-title {
+  color: #F7F8FA;
+  font-family: 'IBM Plex Sans';
+  margin-bottom: 1em;
+}
+
+.talk-author {
+  font-size: 1em;
+  color: #808000;
+  margin-top: 0.2em;
+}
+.talk-date {
+  font-size: .5em
+}
+
+#slide-title {
+  background-image: url(../img/liulogo.png);
+  background-color: #000000FF;
+  background-position: 95% 93%;
+  background-size: 25%;
+  color: black;
+  font-size: 2.5em
+}
+
+.talk-meta {
+  color: white;
+}
+
+.talk-author {
+  color: white;
+  font-size: 1em
+}
+.talk-date {
+  font-size: .8em
+}
+
+#title-slide. > remark-slide-number {
+  display: none;
+}
+
+
+#well{
+color: #FF0000;
+}
+
+.book-cover {
+  background-image: url(../img/plane.png);
+  background-size: contain;
+  background-position: 95% 90%;
+  width: 600px;
+  height: 700px;
+}
+
+
+.img-clip{
+  display: grid;
+}
+  
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: auto;
+  background-color: #000;
+  color: #444;
+}
+
+.content-box-blue,
+.content-box-gray,
+.content-box-grey,
+.content-box-army,
+.content-box-green,
+.content-box-purple,
+.content-box-red,
+.content-box-yellow {
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin: 0 0 15px;
+  overflow: hidden;
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+}
+.content-box-blue { background-color: #F0F8FF; }
+.content-box-gray { background-color: #e2e2e2; }
+.content-box-grey {	background-color: #F5F5F5; }
+.content-box-army {	background-color: #737a36; }
+.content-box-green { background-color: #d9edc2; }
+.content-box-purple { background-color: #e2e2f9; }
+.content-box-red { background-color: #ffcccc; }
+.content-box-yellow { background-color: #fef5c4; }
+.content-box-blue .remark-inline-code,
+.content-box-blue .remark-inline-code,
+.content-box-gray .remark-inline-code,
+.content-box-grey .remark-inline-code,
+.content-box-army .remark-inline-code,
+.content-box-green .remark-inline-code,
+.content-box-purple .remark-inline-code,
+.content-box-red .remark-inline-code,
+.content-box-yellow .remark-inline-code { 
+  background: none;
+}
+
+
+

@@ -1,0 +1,378 @@
+---
+title: "Decision Models for the Procurement of Subsidised Air Services"
+subtitle: "<br/>Licentiate Presentation"
+author: 
+  - .b[Alan Kinene]
+  - .small[.blue-medium[Department of Science and Technology, ITN]]
+  #- - <a href="#" class="fa fa-twitter"></a>.gray-2[&commat;alankinene]"
+date: "`r Sys.Date()`"
+  
+output:
+  xaringan::moon_reader:
+    css: ["extra.css", "ninjutsu", "default"] 
+    
+    seal: false
+    nature:
+      beforeInit: 
+        - js/macros.js
+      titleSlideClass: [center] #, mytitle
+      highlightStyle: atom-one-light
+      countIncrementalSlides: true
+      self_contained: true
+      slideNumberFormat: "%current%"
+      ratio: 16:9
+---
+name: title
+class:  center hide-count
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+<!-- Title Slide -->
+```{r title-slide, echo=FALSE, message = FALSE, warning = FALSE}
+htmltools::withTags(
+  div(
+    class = "talk-meta",
+    div(
+      class = "talk-title",
+      h1(rmarkdown::metadata$title),
+      h3(rmarkdown::metadata$subtitle)
+    ),
+    div(
+      class = "talk-date",
+      knitr::knit(text = rmarkdown::metadata$date, quiet = TRUE)
+    ),
+    div(
+      class = "talk-author",
+      paste(rmarkdown::metadata$author, collapse = " <br> "),
+      br(),
+      span(paste(rmarkdown::metadata$institute, collapse = ", "))
+    )
+  )
+)
+```
+---
+class: slide-font
+# Introduction
+
+* Deregulation
+* Profit oriented airlines ignore routes that serve remote regions
+* Impaired accessibility to certain destination
+* Subsidy schemes by transportation authorities
+  - Procure air services
+  - Pay subsidies to airlines
+  - Subsidised routes
+
+???
+- Air trasportation started out as a regulated sector where governemts controlled route entry and exit, airfares.
+- Increase in total number of passengers made some routes more attractive than others, led to monopolistic practices such as inflated air fares along some routes
+- This led to governments deregulating air transportation, meaning airlines could freely choose new profitable routes and ignore/abandon the unprofitables ones
+- As a result, profit oriented airlines ignore routes that serve remote regions if they have insufficient pax demand, which usually translates into unprofitability
+- In a nutshell, dereguration impairs accessibility of people in small communities or remote regions to and from given destinations e.g., a mojor city, a hospital, and a hub or an international airport within a specified travel time. 
+- This is a bad thing because it is not fair that part of the population may not access other regions and air transportation would provided their best chance. and even so, connecting these regions may have economic benefits for the whole country. crucial for economic social devpt
+- To ensure accessibility to and from these regions, transportation authorities in Europe , the USA, Asia, and Austraria have these subsidy schemes where they procure air services: They pay subsidies to airlines who in turn provide air services.
+---
+class: slide-font
+
+# Procurement of Air Services
+
+.center[
+![:scale 100%](img/implementation_process.png)
+]
+
+> .content-box-gray[Focus on Stage 1 and Stage 2]
+
+???
+- The procurement of of air services generally involves 3 stages: 
+
+- it starts with an investigation of regions that need subsidised air services. Here they use measures such as travel time to reach certain destinations, for example, a capital city.
+- then there is an auction where the transportation authority selects the airlines to provide air services and usually receive a subsidy.
+- After the auction, the implementation starts where we experience actual service provision, payments.
+-This process repeates every 2-5 years depending on the contract period of the specific country.
+- 2 major problems, increasing subsidies spent by transportation authorities, and misuse of the subsidy scheme where some regions that for example have good train frequencies also get a subsidised route
+- The first two task influence are key to solving dealing with these criticisms. For instance the investigation may be done more objectively and and the auction may be set up in a way that minimises the total subsidies to the airlines.
+- So we focus on Stage 1 and Stage 2.
+
+- 
+1. Selection of subsidised routes
+2. Auction for subsidised routes
+---
+class: slide-font
+
+# Over all aim
+
+> To design decision support models that can be used by transportation authorities to .content-box-gray[select the routes to subsidise] and to .content-box-gray[design auction with appropriate requitrements for these routes]
+
+???
+So the overall aim of the thesis is to ....
+---
+class: slide-font
+# Research Questions and Goals
+.left-column[
+<br/>
+<br/>
+### 2 Research<br/> Questions
+]
+.right-column[
+1.  How to model the selection of routes to subsidise? 
+
+2.  How to model an auction that replicates the selection of airlines to serve subsidised routes?
+]
+
+???
+- we are interested in two questions. how to model the ....and how to 
+---
+class: slide-font_2
+# Research Questions and Goals
+.left-column[
+<br/>
+### 2 Research<br/> Questions
+<br/>
+### 2 Goals
+]
+.right-column[
+.gray[
+RQ1.  How to model the selection of routes to subsidise?  
+
+RQ2.  How to model an auction that replicates the selection of airlines to serve subsidised routes?
+]
+
+G1. To develop a model that can compare existing and non-existing subsidised schemes, and can objectively select an optimal set of subsidised routes.
+
+G2. To develop a model that can help the transportation authorities choose appropriate tendering requirements by studying how changes in these requirements may affect the subsidies, the airlines, and the passengers.
+]
+
+???
+These lead to two goals, one dealing with the development of models
+and the other
+---
+class: hover
+# Models for Procuring Subsidised routes
+
+.left-column[
+### .marron-bold[Selecting subsidised routes]
+]
+.right-column[
+ * Add picture
+]
+---
+# Models for Procuring Subsidised routes
+
+.left-column[
+### Selecting subsidised routes
+### .marron-bold[Auction for Subsidised routes] 
+]
+.right-column[
+ .pull-left[
+1. Bid Preparation
+]
+
+.pull-right[
+2. Winner determination
+]
+]
+
+
+---
+# Contributions
+
+---
+class: center, middle, mytitle
+background-image: url("img/plane.png")
+background-position: 50% 85%
+background-size: 60%
+# Summary of the  two papers
+---
+class: slide-font_2
+## PAPER I:
+### Decision Support for an Optimal Choice of Subsidised Routes in Air Transportation
+
+.pull-left[
+- How to model the selection of routes to subsidise?
+
+- Assist decision-makers in selecting an optimal network of subsidised routes
+
+- .content-box-gray[Budgeted maximal coverage model]
+]
+
+.pull-right[
+![:scale 100%](img/criteria_used.png)
+]
+
+???
+- We use .content-box-blue[sweden] as a case study
+- **Goal:** A mathematical model to assist decision makers in selecting an optimal network of subsidised routes
+- The selection of routes is usually based on certain criteria, and travel time targets, In this paper, we look at 2 criteria and 5 targets
+- The authorities would want to maximise the number of people with accessibility under these criteria but they have a limited budget so we formulate this subsidised route selection probem as a budgeted maximal coverage problem.
+---
+class: slide-font_2
+## A Budgeted maximal coverage model
+
+.pull-left[
+<br/>
+<br/>
+![:scale 100%](img/budgetedIP.png)
+]
+
+.pull-right[
+- $y_p = 1$ if center $p$ is corvered; 0 otherwise
+
+- $x_f = 1$ if route $f$ selected; 0 otherwise
+
+- Maximise number of people with respect to an accessibility target $t$
+
+- A budget $B$ should not be exceeded
+
+- Ground transportation, commercial route, or subsidised route
+]
+
+???
+- we estimate the cost of subsidisation because this would be unknown for non-existing routes
+
+- c 1.3 ensures that a population center does not use a a subsidised route if it satisfies the accessibility target using ground or a commercial route
+
+---
+class: slide-font_2, hover
+background-image: url("img/result_p1.png")
+background-size: 48%
+background-position: 10% 70%
+## PAPER I: Conclusions
+
+.pull-left[
+
+]
+
+.pull-right[
+<br/>
+<br/>
+1. Better accessibility than current network but at a reduced subsidisation cost
+
+2. Closure of an airport (e.g., Stockholm Bromma Airport) with commercial traffic may require a subsidised route to as replacement
+]
+
+???
+- We can do more with less money.
+-
+
+- The closure of an airport reduces the number of commercial routes, which would reduce the accessibility to a given destination
+---
+class: slide-font_2
+## PAPER II:
+### Using an Auction to analyse the Tendering of Subsidised Routes in Air Transportation
+
+.pull-left[
+- How to model an auction that replicates the selection of airlines to serve subsidised routes?
+
+- Assist decision-makers in setting up an auction for selecting airlines to provide subsidised air services
+
+- .content-box-gray[An integrated auction framework]
+
+]
+
+.pull-right[
+.center[
+![:scale 70%](img/scas.png)
+]
+]
+
+???
+- **Research question:** How to model an auction that replicates the selection of airlines to serve subsidised routes? 
+
+- **Goal:** An <span style:"color: blue;">integrated auction framework</span> 
+- Sweden as a case study
+- We develop an integrated auction framework that starts with auction definition by the transportation authority. Here, the requiremnest of the maximum airfares and minimum number of flights are specified.
+- The the airlines are called to bid and they prepare their bids taking into consideration the demand and the route operation cost. Specify the subsidy needed for their services
+- The last step is for the transportation authority to select the winning airlines for each region.
+---
+class: slide-font_2
+background-image: url("img/bidIP.png")
+background-size: 48%
+background-position: 11% 70%
+## An integrated auction framework
+#### The bid preparation model
+.pull-left[
+
+]
+
+.pull-right[
+- Minimise total subsidy $s$ per bundle 
+
+- Capture demand elasticity using a utility function: $d_a=D\frac{e^{U_{a}}}{1+e^{U_{a}}}$, $U_{a}(time, airfare)$
+- Estimate route operating cost: $C(seat, distance)$
+
+- Balance demand and capacity
+
+- Profit threshold $\psi$
+]
+---
+class: slide-font_2
+## An integrated auction framework
+#### The Winner determination problem
+.pull-left[
+
+![:scale 100%](img/WDP.png)
+]
+
+.pull-right[
+- Minimise total subsidy for serving all regions
+
+- $x_b = 1$ if bundle $b$ is selected; 0 otherwise
+
+- Each airline is wins atmost one bundle
+]
+---
+class: slide-font_2, hover
+## PAPER II: Conclusions
+
+![:scale 100%](img/results_p2.png)
+- No restriction on air fare and number of daily flights is good for the government
+
+- Requirement on the minimum airfare gives a good balance between government subsidies and consumers surplus
+---
+## Discussion and future research
+
+
+---
+class: center, mytitle
+background-image: url("img/plane.png")
+background-position: 5% 85%
+background-size: 60%
+# Acknowledgements
+
+.pull-left[
+Tobias Andersson Grandberg (Main supervisor)
+
+Clas Rydergren (co-supervisor)
+
+Valentin Polishchuk (co-supervisor)
+
+Nicole Adler (co-author)
+
+Sebastian Birolini (co-author)
+]
+
+.pull-right[
+Trafikverket
+
+Anna Norin (Swedavia)
+
+Andreas Holmgren (Transportstyrelsen)
+
+Johan Holmer (Trafikverket)
+
+Jean-Marie Skoglund (Trafikverket)
+
+Håkan Jacobsson (Trafikverket)
+
+Bosse Andersson (Trafikverket)
+
+Billy Josefsson (LFV)
+
+Per Bertler (LFV)
+
+Svein Bråthen (Opponent)
+]
+
+
