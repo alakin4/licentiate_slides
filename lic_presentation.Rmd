@@ -72,13 +72,21 @@ class: slide-font
     > - Subsidised routes
 
 ???
+* In the early years of air transportation, governments highly regulated it through controlled route entry and exit. This was later deemed no longer providing the intended benefits to the population.
+
+* Then governments decided to deregulate air transportation by allowing airlines more freedom in regards to route entry, exit, and airfares. Meaning airlines could freely choose new profitable routes and ignore/abandon the un-profitables ones
+
+* The same governments later realised that deregulation impairs accessibility of people in small communities or remote regions to and from given destinations e.g., a major city, a hospital, and a hub or an international airport. 
+
+* These regions are socially and economically important to their countries. Therefore governments would like to have these region accessible and thus have regional integration
+
+* So transportation authorities in Europe , the USA, Asia, and Australia have these subsidy schemes where they procure air services: They pay subsidies to airlines who in turn provide air services. In Europe it is called the PSO scheme and the US the EAS.
+
+# END
+
 - Air trasportation started out as a regulated sector where governemts controlled route entry and exit, airfares.
 - Increase in total number of passengers made some routes more attractive than others, led to monopolistic practices such as inflated air fares along some routes
-- This led to governments deregulating air transportation, meaning airlines could freely choose new profitable routes and ignore/abandon the unprofitables ones
-- As a result, profit oriented airlines ignore routes that serve remote regions if they have insufficient pax demand, which usually translates into unprofitability
-- In a nutshell, dereguration impairs accessibility of people in small communities or remote regions to and from given destinations e.g., a mojor city, a hospital, and a hub or an international airport within a specified travel time. 
-- This is a bad thing because it is not fair that part of the population may not access other regions and air transportation would provided their best chance. and even so, connecting these regions may have economic benefits for the whole country. crucial for economic social devpt
-- To ensure accessibility to and from these regions, transportation authorities in Europe , the USA, Asia, and Austraria have these subsidy schemes where they procure air services: They pay subsidies to airlines who in turn provide air services.
+
 ---
 class: slide-font
 
@@ -97,6 +105,7 @@ class: slide-font
 - then there is an auction where the transportation authority selects the airlines to provide air services and usually receive a subsidy.
 - After the auction, the implementation starts where we experience actual service provision, payments.
 -This process repeates every 2-5 years depending on the contract period of the specific country.
+
 - 2 major problems, increasing subsidies spent by transportation authorities, and misuse of the subsidy scheme where some regions that for example have good train frequencies also get a subsidised route
 - The first two task influence are key to solving dealing with these criticisms. For instance the investigation may be done more objectively and and the auction may be set up in a way that minimises the total subsidies to the airlines.
 - So we focus on Stage 1 and Stage 2.
@@ -335,7 +344,7 @@ class: slide-font_2
 
 - **Goal:** An <span style:"color: blue;">integrated auction framework</span> 
 - Sweden as a case study
-- We develop an integrated auction framework that starts with auction definition by the transportation authority. Here, the requiremnest of the maximum airfares and minimum number of flights are specified.
+- We develop an integrated auction framework that starts with auction definition by the transportation authority. Here, the requirements of the maximum airfares and minimum number of flights are specified.
 - The the airlines are called to bid and they prepare their bids taking into consideration the demand and the route operation cost. Specify the subsidy needed for their services
 - The last step is for the transportation authority to select the winning airlines for each region.
 ---
@@ -386,6 +395,9 @@ class: slide-font_2, hover
 - No restriction on airfare and number of daily flights is good for the government
 
 - Requirement on the minimum airfare gives a good balance between government subsidies and consumers surplus
+
+???
+Maximum of two daily return flight else it is just the bare minimum of 1 daily flight.
 ---
 class: slide-font_2
 ## Summary and future research 
@@ -428,7 +440,7 @@ Sebastian Birolini (co-author)
 ]
 
 .pull-right[
-Trafikverket
+Trafikverket (Funding)
 
 Anna Norin (Swedavia)
 
